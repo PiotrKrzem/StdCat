@@ -3,4 +3,6 @@ training_checkpoints/*
 training_data/Annotation/*
 training_data/Images/*
 test/*
+dcgan.gif
+examples.png
 
