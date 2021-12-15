@@ -1,4 +1,6 @@
 .DS_Store
-training_checkpoints/
-test/
+training_checkpoints/*
+training_data/Annotation/*
+training_data/Images/*
+test/*
 
