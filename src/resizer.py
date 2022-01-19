@@ -12,9 +12,9 @@ path_dest = r''
 #
 images = []
 offsets = []
-changesize = False
-width = 1000
-height = 1000
+changesize = True
+width = 224
+height = 224
 blurparams  = (10, 10)
 
 for root, dirs, files in os.walk(path_img):
