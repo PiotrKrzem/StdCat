@@ -1,26 +1,27 @@
-# StdCat - GAN for the cute doggos
+# GAN and style transfer network 
+This is a final project for Introduction to Machine Learning course.
 
-BEFORE RUNNING:
+Project uses python 3.8.9 version.
+## Setup
+
+### Download data
 
 https://www.kaggle.com/jessicali9530/stanford-dogs-dataset
 
-Please download the dataset above, and replace 
-- training_data/Images with images/Images
-- training_data/Annotation with annotations/Annotation
+Please download the dataset from above link, and copy all contents 
+- from ```images/Images``` to ```training_data/Images```
+- from ```annotations/Annotation``` to ```training_data/Annotation```
 
-ALSO:
 
-Navigate to the project folder in the command line, and run:
+### Install requirements
 
-$ python -m pip install -r requirements.txt
+```pip3 install --upgrade pip```
 
-Or on Mac:
+```python3 -m pip install -r requirements.txt```
 
-$ python3 -m pip install -r requirements.txt
 
-Please make sure to update requirements file if other packages are needed.
+## Running
 
-To launch:
-run main.py in console/compiler
+```python3 main.py```
 
-NOTE: stdcat.py contains original tensorflow code, and is only used as a backup
+
