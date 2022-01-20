@@ -1,4 +1,5 @@
 .DS_Store
+.vscode
 training_checkpoints/*
 training_data/Annotation/*
 training_data/Images/*
